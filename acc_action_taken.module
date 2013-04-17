@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Access Action taken feature.
+ */
+
+include_once 'acc_action_taken.features.inc';
