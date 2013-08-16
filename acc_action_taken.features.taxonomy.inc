@@ -55,9 +55,9 @@ function acc_action_taken_taxonomy_default_vocabularies() {
         ),
       ),
     ),
-    'action_taken_type' => array(
+    'acc_action_taken_type' => array(
       'name' => 'Action taken type',
-      'machine_name' => 'action_taken_type',
+      'machine_name' => 'acc_action_taken_type',
       'description' => '',
       'hierarchy' => '0',
       'module' => 'taxonomy',
@@ -78,9 +78,9 @@ function acc_action_taken_taxonomy_default_vocabularies() {
         ),
       ),
     ),
-    'organization_group' => array(
+    'acc_organization_group' => array(
       'name' => 'Organization group',
-      'machine_name' => 'organization_group',
+      'machine_name' => 'acc_organization_group',
       'description' => '',
       'hierarchy' => '0',
       'module' => 'taxonomy',

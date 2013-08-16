@@ -531,7 +531,7 @@ function acc_action_taken_field_default_fields() {
       'settings' => array(
         'allowed_values' => array(
           0 => array(
-            'vocabulary' => 'organization_group',
+            'vocabulary' => 'acc_organization_group',
             'parent' => '0',
           ),
         ),
@@ -906,7 +906,7 @@ function acc_action_taken_field_default_fields() {
       'settings' => array(
         'allowed_values' => array(
           0 => array(
-            'vocabulary' => 'action_taken_type',
+            'vocabulary' => 'acc_action_taken_type',
             'parent' => '0',
           ),
         ),
@@ -1148,7 +1148,7 @@ function acc_action_taken_field_default_fields() {
   );
 
   // Exported field: 'taxonomy_term-organization_group-field_group_acronym'.
-  $fields['taxonomy_term-organization_group-field_group_acronym'] = array(
+  $fields['taxonomy_term-acc_organization_group-field_group_acronym'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
@@ -1177,7 +1177,7 @@ function acc_action_taken_field_default_fields() {
       'type' => 'text',
     ),
     'field_instance' => array(
-      'bundle' => 'organization_group',
+      'bundle' => 'acc_organization_group',
       'default_value' => NULL,
       'deleted' => '0',
       'description' => '',

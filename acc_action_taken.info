@@ -28,10 +28,10 @@ features[field][] = node-action_taken-field_triggered_by_list
 features[field][] = node-action_taken-field_type_of_action
 features[field][] = taxonomy_term-access_constraint_type-field_access_constraint
 features[field][] = taxonomy_term-access_constraints-field_long_label
-features[field][] = taxonomy_term-organization_group-field_group_acronym
+features[field][] = taxonomy_term-acc_organization_group-field_group_acronym
 features[node][] = action_taken
-features[taxonomy][] = action_taken_type
-features[taxonomy][] = organization_group
+features[taxonomy][] = acc_action_taken_type
+features[taxonomy][] = acc_organization_group
 features[variable][] = comment_action_taken
 features[variable][] = comment_anonymous_action_taken
 features[variable][] = comment_default_mode_action_taken
@@ -46,3 +46,10 @@ features[variable][] = menu_parent_action_taken
 features[variable][] = node_options_action_taken
 features[variable][] = node_preview_action_taken
 features[variable][] = node_submitted_action_taken
+
+
+; Information added by drush on 2013-07-18
+version = "master-dev"
+project = "acc_action_taken"
+datestamp = "1374147164"
+
