@@ -47,9 +47,3 @@ features[variable][] = node_options_action_taken
 features[variable][] = node_preview_action_taken
 features[variable][] = node_submitted_action_taken
 
-
-; Information added by drush on 2013-07-18
-version = "master-dev"
-project = "acc_action_taken"
-datestamp = "1374147164"
-
