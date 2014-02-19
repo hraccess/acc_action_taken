@@ -54,6 +54,15 @@ function acc_action_taken_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'delete terms in acc_action_taken_type'.
+  $permissions['delete terms in acc_action_taken_type'] = array(
+    'name' => 'delete terms in acc_action_taken_type',
+    'roles' => array(
+      'access manager' => 'access manager',
+    ),
+    'module' => 'taxonomy',
+  );
+
   // Exported permission: 'edit any acc_action_taken content'.
   $permissions['edit any acc_action_taken content'] = array(
     'name' => 'edit any acc_action_taken content',
@@ -74,6 +83,15 @@ function acc_action_taken_user_default_permissions() {
       'manager' => 'manager',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: 'edit terms in acc_action_taken_type'.
+  $permissions['edit terms in acc_action_taken_type'] = array(
+    'name' => 'edit terms in acc_action_taken_type',
+    'roles' => array(
+      'access manager' => 'access manager',
+    ),
+    'module' => 'taxonomy',
   );
 
   // Exported permission: 'import acc_action_taken feeds'.

@@ -216,7 +216,7 @@ function acc_action_taken_views_default_views() {
   $handler->display->display_options['fields']['field_action_taken_date']['table'] = 'search_api_index_acc_action_taken';
   $handler->display->display_options['fields']['field_action_taken_date']['field'] = 'field_action_taken_date';
   $handler->display->display_options['fields']['field_action_taken_date']['settings'] = array(
-    'format_type' => 'short',
+    'format_type' => 'access_short_date',
     'fromto' => 'both',
     'multiple_number' => '',
     'multiple_from' => '',
