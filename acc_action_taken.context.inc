@@ -61,7 +61,7 @@ function acc_action_taken_context_default_contexts() {
   $context->api_version = 3;
   $context->name = 'acc_action_taken_list';
   $context->description = '';
-  $context->tag = '';
+  $context->tag = 'Access Action taken';
   $context->conditions = array(
     'views' => array(
       'values' => array(
@@ -69,19 +69,12 @@ function acc_action_taken_context_default_contexts() {
       ),
     ),
   );
-  $context->reactions = array(
-    'block' => array(
-      'blocks' => array(
-        'views--exp-acc_action_taken-list' => array(
-          'module' => 'views',
-          'delta' => '-exp-acc_action_taken-list',
-          'region' => 'sidebar_first',
-          'weight' => '-10',
-        ),
-      ),
-    ),
-  );
+  $context->reactions = array();
   $context->condition_mode = 0;
+
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('Access Action taken');
   $export['acc_action_taken_list'] = $context;
 
   $context = new stdClass();
@@ -98,18 +91,7 @@ function acc_action_taken_context_default_contexts() {
       ),
     ),
   );
-  $context->reactions = array(
-    'block' => array(
-      'blocks' => array(
-        'views--exp-acc_action_taken-table' => array(
-          'module' => 'views',
-          'delta' => '-exp-acc_action_taken-table',
-          'region' => 'sidebar_first',
-          'weight' => '-10',
-        ),
-      ),
-    ),
-  );
+  $context->reactions = array();
   $context->condition_mode = 0;
 
   // Translatables

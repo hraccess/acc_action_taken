@@ -80,7 +80,7 @@ function acc_action_taken_default_search_api_index() {
           "status" : 1,
           "weight" : "-10",
           "settings" : {
-            "default" : "1",
+            "default" : "0",
             "bundles" : { "acc_action_taken" : "acc_action_taken" }
           }
         },
