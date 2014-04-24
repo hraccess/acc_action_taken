@@ -32,19 +32,19 @@ function acc_action_taken_context_default_contexts() {
           'module' => 'facetapi',
           'delta' => 'oQ8bQXEG5BsN42O0Joi0klUsxaQS1WGT',
           'region' => 'sidebar_first',
-          'weight' => '-10',
+          'weight' => '1',
         ),
         'facetapi-eBtuocZofWCgsAMPAbLaz9hVi3z8rr0k' => array(
           'module' => 'facetapi',
           'delta' => 'eBtuocZofWCgsAMPAbLaz9hVi3z8rr0k',
           'region' => 'sidebar_first',
-          'weight' => '-9',
+          'weight' => '2',
         ),
         'facetapi-FkrEzi2pWssKCq1k0ijRaFTdB9UDBB0y' => array(
           'module' => 'facetapi',
           'delta' => 'FkrEzi2pWssKCq1k0ijRaFTdB9UDBB0y',
           'region' => 'sidebar_first',
-          'weight' => '-8',
+          'weight' => '3',
         ),
       ),
     ),
@@ -69,7 +69,18 @@ function acc_action_taken_context_default_contexts() {
       ),
     ),
   );
-  $context->reactions = array();
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'views--exp-acc_action_taken-list' => array(
+          'module' => 'views',
+          'delta' => '-exp-acc_action_taken-list',
+          'region' => 'sidebar_first',
+          'weight' => '0',
+        ),
+      ),
+    ),
+  );
   $context->condition_mode = 0;
 
   // Translatables
@@ -91,7 +102,18 @@ function acc_action_taken_context_default_contexts() {
       ),
     ),
   );
-  $context->reactions = array();
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'views--exp-acc_action_taken-table' => array(
+          'module' => 'views',
+          'delta' => '-exp-acc_action_taken-table',
+          'region' => 'sidebar_first',
+          'weight' => '0',
+        ),
+      ),
+    ),
+  );
   $context->condition_mode = 0;
 
   // Translatables
